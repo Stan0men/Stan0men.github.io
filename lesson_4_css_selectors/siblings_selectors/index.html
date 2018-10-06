@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Siblings</title>
+</head>
+
+<body>
+	<style>
+		:root {
+			--color_1: #231A31;
+			--color_2: #E42F45;
+			--color_3: #8AB2FF;
+			--color_4: #F1C40F;
+			--color_5: #B7569A;
+			--color_6: #E4F091;
+			--color_7: #085F63;
+			--color_8: #887575;
+		}
+
+		div:first-of-type p+p {
+			background-color: var(--color_1);
+		}
+
+		div:first-of-type h2 {
+			background-color: var(--color_2);
+		}
+		span ~ h2 {
+			background-color: var(--color_3);
+		}
+		div ~ h2 {
+			background-color: var(--color_4);
+		}
+	</style>
+	<div>
+		<p>Параграф 1</p>
+		<p>Параграф 2</p>
+		<p>Параграф 3</p>
+		<p class="active">Параграф 4</p>
+		<h2>Заголовок 1</h2>
+	</div>
+	<div>
+		<p>Параграф 1.2</p>
+		<p>Параграф 2.2</p>
+		<p class="active">Параграф 3.2</p>
+		<p>Параграф 4.2</p>
+		<h2>Заголовок 1.2</h2>
+	</div>
+	<div>
+		<p>Параграф 1.3</p>
+		<p>Параграф 2.3</p>
+		<span>Спан</span>
+		<p>Параграф 3.3</p>
+		<p>Параграф 4.3</p>
+		<h2>Заголовок 1.3</h2>
+	</div>
+	<h2>Заголовок 2</h2>
+</body>
+
+</html>

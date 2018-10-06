@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Pseudo selectors</title>
+</head>
+
+<body>
+	<style>
+		:root {
+					--color_1: #231A31;
+					--color_2: #E42F45;
+					--color_3: #8AB2FF;
+					--color_4: #F1C40F;
+					--color_5: #B7569A;
+					--color_6: #E4F091;
+					--color_7: #085F63;
+					--color_8: #887575;
+				}
+		    a.www, a.www:visited{
+                background-color: var(--color_6);
+		       }
+			a:not(.www):active{
+				background-color: var(--color_7);
+			}
+			a:hover{
+				background-color: var(--color_1);
+			}
+			input:checked + label{
+				text-decoration: underline;
+			}
+			input[type="text"]:focus{
+				border: 1px solid blue;
+			}
+			input:required {
+                background-color: #efefef;
+            }
+				
+			</style>
+	<h1>Main document</h1>
+	<div>
+		<a href="about" class="www link" href="http://somesite.com">Link 1</a>
+	</div>
+	<div>
+		<a href="about_else" class="www link">Link 1</a>
+		<p class="about__section">Параграф 1.2</p>
+		<h2 data-href="hell highlight_me">Заголовок 1.2</h2>
+	</div>
+	<div>
+		<div id="about_else">Block</div>
+		<a class="some link" href="https://mate-academy.github.io">Link 3</a>
+	</div>
+	<a class="www else" href="http://somesite.com/team.html">Link 2</a>
+	<h2>Заголовок 2</h2>
+	<form>
+		<h3>Forms elements</h3>
+		<input type="text" class="form-element" required />
+
+		<p>What do you prefer to drink?</p>
+		<input type="checkbox" value="coffee" />
+		<label>Coffee</label>
+		<input type="checkbox" value="tea" />
+		<label>Tea</label>
+
+		<label>How old are you</label>
+		<input type="number" class="form-element" required />
+
+		<input type="button" value="Submit" />
+		<input type="button" value="Reset" />
+	</form>
+</body>
+
+</html>
