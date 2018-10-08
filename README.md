@@ -1,7 +1,7 @@
 # Homeworks for Mate Academy
 
 ### Practice1 (Form): 
-https://stan0men.github.io/lesson_3_form/
+https://stan0men.github.io/practice_1_form/
 
 ---
 
