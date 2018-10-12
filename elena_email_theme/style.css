@@ -62,7 +62,7 @@ header {
 .header-nav-menu{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header-nav-menu li {
@@ -201,6 +201,7 @@ header {
 
 .two-pictures__item{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .two-pictures__slogan{
     margin-top: 42px;
@@ -209,4 +210,43 @@ header {
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
     color: #384048;
+}
+.two-pictures__text p{
+    margin-top: 25px;
+    margin-bottom: 38px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: #787b80;
+}
+
+.two-pictures__button button {
+    border-radius: 20px;
+    background-color:  #50c3af;
+    width: 98px;
+    height: 35px;
+    border: none;
+}
+
+.two-pictures__button button a{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+/*article*/
+article{
+    width: 100%;
+
+}
+
+.article-top__slogan {
+    float: left;
+}
+.article-top__slogan p{
+    color: #384048;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
