@@ -19,8 +19,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-69">
-                  <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+                <state relative-caret-position="188">
+                  <caret line="233" column="47" lean-forward="true" selection-start-line="233" selection-start-column="31" selection-end-line="233" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -32,8 +32,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+                <state relative-caret-position="409">
+                  <caret line="473" column="22" selection-start-line="473" selection-start-column="22" selection-end-line="473" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -95,7 +95,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="the&#9;ACTION&#9;MTArcDarkTheme&#10;theme&#9;ACTION&#9;MTArcDarkTheme" />
+    <property name="SearchEverywhereHistoryKey" value="clearfix&#9;null&#9;null&#10;the&#9;ACTION&#9;MTArcDarkTheme&#10;theme&#9;ACTION&#9;MTArcDarkTheme" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -125,12 +125,12 @@
       <updated>1539511570388</updated>
       <workItem from="1539511572303" duration="3461000" />
       <workItem from="1539515327951" duration="2383000" />
-      <workItem from="1539518591502" duration="1553000" />
+      <workItem from="1539518591502" duration="11666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7397000" />
+    <option name="totallyTimeSpent" value="17510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -192,15 +192,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+        <state relative-caret-position="188">
+          <caret line="233" column="47" lean-forward="true" selection-start-line="233" selection-start-column="31" selection-end-line="233" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+        <state relative-caret-position="409">
+          <caret line="473" column="22" selection-start-line="473" selection-start-column="22" selection-end-line="473" selection-end-column="22" />
         </state>
       </provider>
     </entry>
