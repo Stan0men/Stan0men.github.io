@@ -1,13 +1,11 @@
-
 /*main styles*/
-@font-face{
-   font-family: Belinda;
-   src: url("fonts/belinda.otf");
+@font-face {
+    font-family: Belinda;
+    src: url("fonts/belinda.otf");
 }
 
-*{
-    /* outline: 1px solid black; */
-    
+* {
+    /*outline: 1px solid black;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,49 +15,89 @@
     width: 100%;
     margin: auto;
 }
-.row{
-    width: 100%;
+
+.row {
+    width: 598px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    margin: auto
 }
-.col-1{width: 8.33%}
-.col-2{width: 16.66%}
-.col-3{width: 25%}
-.col-4{width: 33.33%}
-.col-5{width: 41.663%}
-.col-6{width: 50%}
-.col-7{width: 58.33%}
-.col-8{width: 66.66%}
-.col-9{width: 75%}
-.col-10{width: 83.33%}
-.col-11{width: 91.66%}
-.col-12{width: 100%}
 
-/*header*/ 
+.col-1 {
+    width: 8.33%
+}
+
+.col-2 {
+    width: 16.66%
+}
+
+.col-3 {
+    width: 25%
+}
+
+.col-4 {
+    width: 33.33%
+}
+
+.col-5 {
+    width: 41.663%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-7 {
+    width: 58.33%
+}
+
+.col-8 {
+    width: 66.66%
+}
+
+.col-9 {
+    width: 75%
+}
+
+.col-10 {
+    width: 83.33%
+}
+
+.col-11 {
+    width: 91.66%
+}
+
+.col-12 {
+    width: 100%
+}
+
+/*header*/
 header {
     width: 100%;
-    height: 588px;
+    padding-bottom: 50px;
     background: url('img/header.jpg') no-repeat;
     background-size: 100%;
-  
+
 }
-.header-logo{
-   margin: auto; /*чому не працює марджін топ?*/
+
+.header-logo {
+    margin: auto; /*чому не працює марджін топ?*/
+    text-align: center;
 }
-.header-logo p{
+
+.header-logo p {
     font-family: Belinda;
     color: white;
-    font-size:52px;
+    font-size: 52px;
     font-weight: bold;
     padding: 65px 0px 0px 0px;
 }
 
-.header-nav{
+.header-nav {
     margin: 65px auto;
 }
 
-.header-nav-menu{
+.header-nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -70,7 +108,7 @@ header {
     margin-right: 50px;
 }
 
-.header-nav-menu li a{
+.header-nav-menu li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -80,31 +118,33 @@ header {
 }
 
 .header-main-slogan {
-   margin: 20px auto;
+    margin: 20px auto;
 }
-.header-main-slogan p{
+
+.header-main-slogan p {
     text-align: center;
     color: white;
     font-family: Ubuntu, sans-serif;
     font-size: 53px;
     text-transform: uppercase;
 }
-.header-hr{
-    background-color:  rgba(255, 255, 255, 0.24);
+
+.header-hr {
+    background-color: rgba(255, 255, 255, 0.24);
     width: 101px;
     height: 2px;
 }
 
-.header-sub-slogan{
+.header-sub-slogan {
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
 
-
 }
-.header-sub-slogan p{
+
+.header-sub-slogan p {
     font-family: PTSans;
-    color:  white;
+    color: white;
     font-size: 15px;
     font-weight: 700;
     line-height: 24px;
@@ -113,7 +153,7 @@ header {
 }
 
 .header-button {
-    margin: auto;  /* як зробити відступ від низу хедера? */
+    margin: auto; /* як зробити відступ від низу хедера? */
 }
 
 .header-button button {
@@ -129,51 +169,59 @@ header {
     text-transform: uppercase;
     text-decoration: none;
 }
+
 .header-button button a {
     text-decoration: none;
     color: white;
     font-family: PTSans;
-    color:  #f5f5f5;
+    color: #f5f5f5;
     font-size: 15px;
     font-weight: 700;
     line-height: 24px;
-    text-align: center; 
+    text-align: center;
     text-transform: uppercase;
 }
 
-/*icons-top*/ 
+/*icons-top*/
 
-.icons-top{
-    background-color:  rgba(234, 234, 235, 0.6);
-    width: 100%; 
-    height: 286px;   
+.icons-top {
+    background-color: rgba(234, 234, 235, 0.6);
+    width: 100%;
+    height: 286px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.icons-top__item{
+
+.icons-top__item {
     margin-top: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .icons-top__img img {
     margin-bottom: 20px;
-    width: 43px;
-    height: 31px;
+    width: 39px;
+    height: 42px;
 }
+
 .icon-top__slogan {
     margin-bottom: 20px;
 }
 
-.icon-top__slogan p{
+.icon-top__slogan p {
     font-family: PTSans;
-    color:  #40474e;
+    color: #40474e;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     text-align: right;
     text-transform: uppercase;
 }
+
 .icon-top__text {
     margin-top: 25px;
     margin-bottom: 38px;
@@ -183,27 +231,32 @@ header {
     text-transform: uppercase;
 }
 
-.icons-top__hr{
+.icons-top__hr {
     background-color:  rgba(41, 49, 57, 0.06);
     width: 135px;
     height: 2px;
+   opacity: 0.3;
+    margin-left: 35px;
 }
 
 /*two-pictures*/
 
-.two-pictures{
+.two-pictures {
     background-color: #f5f5f5;
-    height: 525px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.two-pictures__item{
+.two-pictures__item {
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
-.two-pictures__slogan{
+
+.two-pictures__slogan {
     margin-top: 42px;
     margin-bottom: 21px;
     font-size: 18px;
@@ -211,7 +264,8 @@ header {
     text-transform: uppercase;
     color: #384048;
 }
-.two-pictures__text p{
+
+.two-pictures__text p {
     margin-top: 25px;
     margin-bottom: 38px;
     font-size: 14px;
@@ -221,13 +275,13 @@ header {
 
 .two-pictures__button button {
     border-radius: 20px;
-    background-color:  #50c3af;
+    background-color: #50c3af;
     width: 98px;
     height: 35px;
     border: none;
 }
 
-.two-pictures__button button a{
+.two-pictures__button button a {
     font-size: 14px;
     font-family: 'PT Sans', sans-serif;
     color: white;
@@ -235,7 +289,7 @@ header {
 }
 
 /*article*/
-article{
+article {
     width: 100%;
 
 }
@@ -243,7 +297,8 @@ article{
 .article-top__slogan {
     float: left;
 }
-.article-top__slogan p{
+
+.article-top__slogan p {
     color: #384048;
     font-size: 18px;
     font-family: 'PT Sans', sans-serif;
