@@ -16,6 +16,6 @@ https://stan0men.github.io/practice_1_form/
 At the same directory!
 
 ---
-### Practice (elena_email_theme):
+### Homework#2 (Landing#1):
 
 https://stan0men.github.io/elena_email_theme/
