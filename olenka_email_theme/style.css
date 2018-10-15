@@ -149,7 +149,7 @@ header {
 }
 
 .header-sub-slogan p {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color: white;
     font-size: 15px;
     font-weight: 700;
@@ -179,8 +179,7 @@ header {
 .header-button button a {
     text-decoration: none;
     color: white;
-    font-family: PTSans;
-    color: #f5f5f5;
+    font-family: 'PT Sans', sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 24px;
@@ -218,7 +217,7 @@ header {
 }
 
 .icon-top__slogan p {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color: #40474e;
     font-size: 16px;
     font-weight: 700;
@@ -271,7 +270,7 @@ header {
 .two-pictures__slogan {
     margin-top: 42px;
     margin-bottom: 21px;
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color:  #40474e;
     font-size: 18px;
     font-weight: 700;
@@ -346,7 +345,7 @@ article {
 
 .article__paragraph {
     text-align: left;
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color: #787b80;
     font-size: 14px;
     font-weight: 400;
@@ -359,7 +358,7 @@ article {
 }
 
 .article__button button {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color: #f5f5f5;
     font-size: 14px;
     font-weight: 400;
@@ -396,7 +395,7 @@ article {
 
 .three-pictures__slogan p {
     margin-bottom: 20px;
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color:  #40474e;
     font-size: 16px;
     font-weight: 700;
@@ -414,7 +413,7 @@ article {
 
 .three-pictures__text {
     margin-bottom: 28px;
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color: #787b80;
     font-size: 14px;
     font-weight: 400;
@@ -422,7 +421,7 @@ article {
 }
 
 .three-pictures__link a {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color:  #50c3af;
     font-size: 14px;
     font-weight: 400;
@@ -451,7 +450,7 @@ article {
 }
 
 .two-articles__slogan {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color: #40474e;
     font-size: 18px;
     font-weight: 700;
@@ -475,7 +474,7 @@ article {
 }
 
 .two-articles__text {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color: #787b80;
     font-size: 14px;
     font-weight: 400;
@@ -502,7 +501,7 @@ article {
     text-transform: uppercase;
 }
 .celebrities__text p {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color:  #787b80;
     font-size: 14px;
     font-weight: 400;
@@ -538,7 +537,7 @@ article {
 }
 
 .celebrities__button button {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color: #f5f5f5;
     font-size: 14px;
     font-weight: 400;
@@ -574,7 +573,7 @@ article {
 }
 
 .before-footer__slogan {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color:  white;
     font-size: 15px;
     font-weight: 700;
@@ -590,7 +589,7 @@ article {
     width: 100%;
 }
 .before-footer__content-wrapper p:nth-child(1){
-    font-family: Belinda;
+    font-family: 'Belinda', sans-serif;
     color:  rgba(255, 255, 255, 0.24);
     font-size: 26px;
     font-weight: 400;
@@ -606,7 +605,7 @@ article {
     text-align: right;
 }
 .before-footer__content-wrapper p:nth-child(3){
-    font-family: Cabin;
+    font-family: 'Cabin', sans-serif;
     color:  rgba(255, 255, 255, 0.24);
     font-size: 26px;
     font-weight: 400;
@@ -624,5 +623,33 @@ article {
 
 /*footer*/
 footer {
+    padding-bottom: 30px;
+    padding-top: 30px;
     width: 100%;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.footer__content p {
+    font-family: PTSans;
+    color:  #787b80;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+}
+.footer__content a{
+    text-decoration: none;
+    color:  #787b80;
+}
+
+.footer__icons {
+    margin-left: 266px;
+}
+
+.footer__icons a{
+    margin-right: 15px;
 }
