@@ -387,7 +387,6 @@ article {
 }
 
 .three-pictures__item {
-    margin: 12px;
     text-align: left;
 }
 
@@ -496,7 +495,7 @@ article {
 }
 
 .celebrities__slogan p {
-    font-family: PTSans;
+    font-family: 'PT Sans', sans-serif;
     color: #40474e;
     font-size: 18px;
     font-weight: 700;
@@ -575,6 +574,10 @@ article {
 
 .before-footer__hr {
     margin-bottom: 30px;
+    background-color:  rgba(245, 245, 245, 0.1);
+    width: 251px;
+    height: 2px;
+    margin-left: 180px;
 }
 
 .before-footer__img {
