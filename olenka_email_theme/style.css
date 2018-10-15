@@ -221,6 +221,9 @@ header {
     text-align: right;
     text-transform: uppercase;
 }
+.amateur {
+    margin-right: 30px;
+}
 
 
 .icon-top__text {
@@ -273,6 +276,10 @@ header {
     line-height: 24px;
     text-align: right;
     text-transform: uppercase;
+}
+
+.move-right {
+    margin-right: 30px;
 }
 
 .two-pictures__hr {
