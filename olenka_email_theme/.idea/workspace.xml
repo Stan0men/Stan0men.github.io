@@ -19,8 +19,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="12" column="80" lean-forward="true" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+                <state relative-caret-position="-598">
+                  <caret line="22" column="134" selection-start-line="22" selection-start-column="134" selection-end-line="22" selection-end-column="134" />
                 </state>
               </provider>
             </entry>
@@ -32,8 +32,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="611" column="22" lean-forward="true" selection-start-line="611" selection-start-column="22" selection-end-line="611" selection-end-column="22" />
+                <state relative-caret-position="414">
+                  <caret line="207" column="17" selection-start-line="207" selection-start-column="17" selection-end-line="207" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -70,17 +70,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="elena_email_theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elena_email_theme" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -92,10 +81,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="olenka_email_theme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olenka_email_theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olenka_email_theme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olenka_email_theme" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="clearfix&#9;null&#9;null&#10;the&#9;ACTION&#9;MTArcDarkTheme&#10;theme&#9;ACTION&#9;MTArcDarkTheme" />
+    <property name="SearchEverywhereHistoryKey" value="belinda&#9;FILE&#9;file://C:/Users/Stan0men/Desktop/JStasks/Stan0men.github.io/olenka_email_theme/fonts/belinda.otf&#10;clearfix&#9;null&#9;null&#10;the&#9;ACTION&#9;MTArcDarkTheme&#10;theme&#9;ACTION&#9;MTArcDarkTheme" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -126,18 +131,18 @@
       <workItem from="1539511572303" duration="3461000" />
       <workItem from="1539515327951" duration="2383000" />
       <workItem from="1539518591502" duration="11666000" />
-      <workItem from="1539584285538" duration="10827000" />
+      <workItem from="1539584285538" duration="12064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28337000" />
+    <option name="totallyTimeSpent" value="29574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15066354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15039062" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32957748" />
@@ -207,15 +212,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="80" lean-forward="true" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+        <state relative-caret-position="-598">
+          <caret line="22" column="134" selection-start-line="22" selection-start-column="134" selection-end-line="22" selection-end-column="134" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="611" column="22" lean-forward="true" selection-start-line="611" selection-start-column="22" selection-end-line="611" selection-end-column="22" />
+        <state relative-caret-position="414">
+          <caret line="207" column="17" selection-start-line="207" selection-start-column="17" selection-end-line="207" selection-end-column="17" />
         </state>
       </provider>
     </entry>

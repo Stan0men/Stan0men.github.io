@@ -1,8 +1,4 @@
 /*main styles*/
-@font-face {
-    font-family: Belinda;
-    src: url("fonts/belinda.otf");
-}
 
 * {
     /*outline: 1px solid black;*/
@@ -208,8 +204,8 @@ header {
 
 .icons-top__img img {
     margin-bottom: 20px;
-    width: 39px;
-    height: 42px;
+    width: 43px;
+    height: 31px;
 }
 
 .icon-top__slogan {
