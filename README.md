@@ -18,4 +18,4 @@ At the same directory!
 ---
 ### Homework#2 (Landing#1):
 
-https://stan0men.github.io/elena_email_theme/
+https://stan0men.github.io/olenka_email_theme/
