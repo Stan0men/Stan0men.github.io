@@ -191,7 +191,12 @@ header {
     flex-direction: row;
     justify-content: space-around;
 }
-
+.icons-top__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+}
 .icons-top__item {
     margin-top: 50px;
     text-align: center;
