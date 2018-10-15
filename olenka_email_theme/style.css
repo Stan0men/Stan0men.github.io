@@ -1,7 +1,6 @@
 /*main styles*/
 
 * {
-    /*outline: 1px solid black;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -83,7 +82,7 @@ header {
 }
 
 .header-logo {
-    margin: auto; /*чому не працює марджін топ?*/
+    margin: auto;
     text-align: center;
 }
 
@@ -155,7 +154,7 @@ header {
 }
 
 .header-button {
-    margin: auto; /* як зробити відступ від низу хедера? */
+    margin: auto;
 }
 
 .header-button button {
@@ -221,10 +220,10 @@ header {
     text-align: right;
     text-transform: uppercase;
 }
+
 .amateur {
     margin-right: 30px;
 }
-
 
 .icon-top__text {
     margin-top: 25px;
@@ -270,7 +269,7 @@ header {
     margin-top: 42px;
     margin-bottom: 21px;
     font-family: 'PT Sans', sans-serif;
-    color:  #40474e;
+    color: #40474e;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -399,7 +398,7 @@ article {
 .three-pictures__slogan p {
     margin-bottom: 20px;
     font-family: 'PT Sans', sans-serif;
-    color:  #40474e;
+    color: #40474e;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -408,7 +407,7 @@ article {
 }
 
 .three-pictures__hr {
-    background-color:  rgba(41, 49, 57, 0.06);
+    background-color: rgba(41, 49, 57, 0.06);
     width: 182px;
     height: 2px;
     margin-bottom: 26px;
@@ -425,7 +424,7 @@ article {
 
 .three-pictures__link a {
     font-family: 'PT Sans', sans-serif;
-    color:  #50c3af;
+    color: #50c3af;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -491,21 +490,24 @@ article {
     padding-top: 60px;
     padding-bottom: 62px;
 }
-.celebrities__slogan{
+
+.celebrities__slogan {
     width: 105%;
 }
+
 .celebrities__slogan p {
     font-family: PTSans;
-    color:  #40474e;
+    color: #40474e;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     text-align: left;
     text-transform: uppercase;
 }
+
 .celebrities__text p {
     font-family: 'PT Sans', sans-serif;
-    color:  #787b80;
+    color: #787b80;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -555,69 +557,78 @@ article {
 /*before-footer*/
 .before-footer {
     width: 100%;
-    background-color:  #50c3af;
+    background-color: #50c3af;
     padding-top: 60px;
     padding-bottom: 65px;
 }
-.before-footer__wrapper{
+
+.before-footer__wrapper {
     width: 100%;
 }
+
 .before-footer__top-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 22px;
 }
+
 .before-footer__hr {
     margin-bottom: 30px;
 }
-.before-footer__img{
+
+.before-footer__img {
     margin-right: 8px;
 }
 
 .before-footer__slogan {
     font-family: 'PT Sans', sans-serif;
-    color:  white;
+    color: white;
     font-size: 15px;
     font-weight: 700;
-    line-height: 24px;/
-    text-align: right;
+    line-height: 24px;
+/ text-align: right;
     text-transform: uppercase;
 }
-.before-footer__content-wrapper{
+
+.before-footer__content-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
     width: 100%;
 }
-.before-footer__content-wrapper p:nth-child(1){
+
+.before-footer__content-wrapper p:nth-child(1) {
     font-family: 'Belinda', sans-serif;
-    color:  rgba(255, 255, 255, 0.24);
+    color: rgba(255, 255, 255, 0.24);
     font-size: 26px;
     font-weight: 400;
     line-height: 24px;
     text-align: right;
 }
-.before-footer__content-wrapper p:nth-child(2){
+
+.before-footer__content-wrapper p:nth-child(2) {
     font-family: NexaRegular;
-    color:  rgba(255, 255, 255, 0.24);
+    color: rgba(255, 255, 255, 0.24);
     font-size: 26px;
     font-weight: 400;
     line-height: 24px;
     text-align: right;
 }
-.before-footer__content-wrapper p:nth-child(3){
+
+.before-footer__content-wrapper p:nth-child(3) {
     font-family: 'Cabin', sans-serif;
-    color:  rgba(255, 255, 255, 0.24);
+    color: rgba(255, 255, 255, 0.24);
     font-size: 26px;
     font-weight: 400;
     line-height: 24px;
     text-align: right;
 }
-.before-footer__content-wrapper p:nth-child(4){
+
+.before-footer__content-wrapper p:nth-child(4) {
     font-family: NexaHeavy;
-    color:  rgba(255, 255, 255, 0.24);
+    color: rgba(255, 255, 255, 0.24);
     font-size: 26px;
     font-weight: 400;
     line-height: 24px;
@@ -636,23 +647,25 @@ footer {
     flex-direction: row;
     justify-content: left;
 }
+
 .footer__content p {
-    font-family: PTSans;
-    color:  #787b80;
+    font-family: 'PT Sans', sans-serif;
+    color: #787b80;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
     text-align: right;
 }
-.footer__content a{
+
+.footer__content a {
     text-decoration: none;
-    color:  #787b80;
+    color: #787b80;
 }
 
 .footer__icons {
     margin-left: 266px;
 }
 
-.footer__icons a{
+.footer__icons a {
     margin-right: 15px;
 }
