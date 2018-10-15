@@ -19,8 +19,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="289" column="141" selection-start-line="289" selection-start-column="141" selection-end-line="289" selection-end-column="141" />
+                <state relative-caret-position="437">
+                  <caret line="292" column="143" selection-start-line="292" selection-start-column="143" selection-end-line="292" selection-end-column="143" />
                 </state>
               </provider>
             </entry>
@@ -88,11 +88,6 @@
               <item name="olenka_email_theme" type="b2602c69:ProjectViewProjectNode" />
               <item name="olenka_email_theme" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="olenka_email_theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="olenka_email_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -131,12 +126,12 @@
       <workItem from="1539511572303" duration="3461000" />
       <workItem from="1539515327951" duration="2383000" />
       <workItem from="1539518591502" duration="11666000" />
-      <workItem from="1539584285538" duration="12677000" />
+      <workItem from="1539584285538" duration="12770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30187000" />
+    <option name="totallyTimeSpent" value="30280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -219,8 +214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="289" column="141" selection-start-line="289" selection-start-column="141" selection-end-line="289" selection-end-column="141" />
+        <state relative-caret-position="437">
+          <caret line="292" column="143" selection-start-line="292" selection-start-column="143" selection-end-line="292" selection-end-column="143" />
         </state>
       </provider>
     </entry>
