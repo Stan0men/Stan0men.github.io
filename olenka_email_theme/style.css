@@ -208,8 +208,19 @@ header {
 
 .icons-top__img img {
     margin-bottom: 20px;
+}
+.man {
     width: 43px;
     height: 31px;
+}
+.heart {
+    width: 38px;
+    height: 35px;
+}
+
+.headphones {
+    width: 39px;
+    height: 42px;
 }
 
 .icon-top__slogan {
