@@ -188,6 +188,7 @@ header {
 /*icons-top*/
 
 .icons-top {
+  padding-top: 50px;
   background-color: rgba(234, 234, 235, 0.6);
   width: 100%;
   display: flex;
@@ -201,17 +202,17 @@ header {
   width: 95%;
 }
 .icons-top__item {
-  margin-top: 50px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .icons-top__img img {
     margin-bottom: 20px;
 }
+
 .man {
     width: 43px;
     height: 31px;
@@ -221,9 +222,10 @@ header {
     height: 35px;
 }
 
-.headphones {
+#headphones {
     width: 39px;
     height: 42px;
+    margin-bottom: 13px;
 }
 
 .icon-top__slogan {
@@ -236,12 +238,7 @@ header {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  text-align: right;
   text-transform: uppercase;
-}
-
-.amateur {
-  margin-right: 30px;
 }
 
 .icon-top__text {
