@@ -679,6 +679,14 @@ footer {
     padding-top: 30px;
     width: 100%;
 }
+.footer__wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
 
 .footer__content {
     display: flex;
@@ -700,10 +708,7 @@ footer {
     color: #787b80;
 }
 
-.footer__icons {
-    margin-left: 266px;
-}
-
 .footer__icons a {
     margin-right: 15px;
+    vertical-align: middle;
 }
