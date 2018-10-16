@@ -296,13 +296,7 @@ header {
     text-transform: uppercase;
 }
 
-.move-right {
-    margin-right: 156px;
-}
 
-.move-right_2 {
-    margin-right: 125px;
-}
 
 .two-pictures__hr {
     background-color: rgba(41, 49, 57, 0.06);
@@ -465,10 +459,11 @@ article {
 .two-articles__wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     width: 100%;
 }
+
 
 .two-articles__icon {
     float: left;
@@ -483,6 +478,14 @@ article {
     text-align: right;
     margin-bottom: 19px;
     text-transform: uppercase;
+}
+
+.move-right {
+    margin-right: 105px;
+}
+
+.move-right_2 {
+    margin-right: 75px;
 }
 
 .two-articles__button button {
