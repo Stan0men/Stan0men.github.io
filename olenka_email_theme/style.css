@@ -323,9 +323,9 @@ header {
   border: none;
 }
 
-.two-pictures__button button a {
+.two-pictures__button button {
   font-size: 14px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PTSans";
   color: white;
   text-decoration: none;
 }
