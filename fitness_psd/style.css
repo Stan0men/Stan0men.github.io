@@ -1,21 +1,81 @@
 /*main styles*/
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  /* outline:1px solid black; */
 }
 
-
 .container {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .row {
-    width: 1180px;
-    margin: 0 auto;
+  width: 1180px;
+  margin: 0 auto;
 }
 
 /*header*/
-header {
-    background: url("img/top_logo.png") no-repeat;
-    background-size: cover;
+.header {
+  /*до звичайного тегу header не примінявся flex)) перепровіряв*/
+  background: url("img/top_logo.png") no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  min-height: 891px;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.header-top__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-wrapper__p {
+  margin-left: 13px;
+}
+
+.header-wrapper__p p {
+  font-family: AvenirNextRoundedStd;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.header-wrapper__p hr {
+  background-color: #a2ca28;
+  width: 38px;
+  height: 3px;
+  margin-left: 0px;
+  border: none;
+}
+
+.header__nav-ul li a {
+  margin-right: 60px;
+  font-family: AvenirNextRoundedStd;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header__main-slogan{
+    position: absolute;
+    color: white;
+    bottom: 50px;
 }
