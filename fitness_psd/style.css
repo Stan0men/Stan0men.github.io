@@ -1,0 +1,21 @@
+/*main styles*/
+*{
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+/*header*/
+header {
+    background: url("img/top_logo.png") no-repeat;
+    background-size: cover;
+}

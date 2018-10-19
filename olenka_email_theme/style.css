@@ -314,19 +314,19 @@ header {
 }
 
 .two-pictures__button button {
-    border-radius: 20px;
     background-color: #50c3af;
-    width: 98px;
+    padding: 0 17px;
     height: 35px;
-    border: none;
+    border-radius: 20px;
+    border: 0px;
+    font-family: 'PT Sans', sans-serif;
+    color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
 }
 
-.two-pictures__button button {
-    font-size: 14px;
-    font-family: "PTSans";
-    color: white;
-    text-decoration: none;
-}
 
 /*article*/
 article {
@@ -489,16 +489,17 @@ article {
 }
 
 .two-articles__button button {
-    border-radius: 20px;
     background-color: #50c3af;
-    width: 98px;
+    padding: 0 17px;
     height: 35px;
-    border: none;
-    font-family: PTSans;
+    border-radius: 20px;
+    border: 0px;
+    font-family: 'PT Sans', sans-serif;
     color: #f5f5f5;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    text-align: right;
 
 }
 
