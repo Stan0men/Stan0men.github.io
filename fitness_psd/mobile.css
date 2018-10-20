@@ -1,24 +1,39 @@
-/* SMARTPHONES PORTRAIT */
-@media only screen and (min-width: 300px) {
-
-
+@media (min-width: 768px) and (max-width: 1024px) {
 }
 
-/* SMARTPHONES LANDSCAPE */
-@media only screen and (min-width: 480px) {
-
-
+@media (min-width: 481px) and (max-width: 767px) {
 }
 
-/* TABLETS PORTRAIT */
-@media only screen and (min-width: 768px) {
-
-
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-top__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .header__wrapper {
+    flex-wrap: wrap;
+  }
+ 
+  .header__nav {
+    margin: auto;
+    width: 100%;
+  }
+  .header__nav-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    margin: 0 auto;
+  }
+  .header__nav-ul li {
+    display: block;
+    width: 100%;
+  }
+  .header__nav-ul li a{
+    margin-right: 10px;
+    line-height: 0;
+  }
+  .header__main-slogan {
+    display: none;
+  }
 }
-
-
-/* TABLET LANDSCAPE / DESKTOP */
-@media only screen and (min-width: 1024px) {
-
-
-}    

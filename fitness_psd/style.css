@@ -17,8 +17,8 @@
 /*header*/
 .header {
   /*до звичайного тегу header не примінявся flex)) перепровіряв*/
-  background: url("img/top_logo.png") 100% no-repeat;
-  background-size: cover;
+  background: url("img/top_logo.png") no-repeat;
+  background-size: 100%;
   padding-top: 50px;
   min-height: 891px;
 }
@@ -27,19 +27,22 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 50px;
+  width: 100%;
 }
 
 .header-top__wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 50px;
+  width: 10%;
 }
 
 .header__nav-ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .header-wrapper__p {
@@ -77,8 +80,8 @@
 .header__main-slogan {
   width: 30%;
   position: relative;
-  top: 480px; /*580/891= 65%* в % не працює*/
-  left: 6%;/*100/1600px= 6%* а тут все ок*/
+  top: 480px; /*580/891= 65% в % не працює*/
+  left: 6%;/*100/1600px= 6% а тут все ок*/
   font-family: AvenirNextRoundedStd;
   color: #ffffff;
   font-size: 39.97px;
@@ -106,6 +109,7 @@
   text-align: left;
   position: relative;
   left:210px;
+  top:-15px;
 }
 .header__sub-slogan span {
   font-family: OpenSans;
