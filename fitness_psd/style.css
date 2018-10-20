@@ -17,7 +17,7 @@
 /*header*/
 .header {
   /*до звичайного тегу header не примінявся flex)) перепровіряв*/
-  background: url("img/top_logo.png") no-repeat;
+  background: url("img/top_logo.png") 100% no-repeat;
   background-size: cover;
   padding-top: 50px;
   min-height: 891px;
@@ -30,10 +30,10 @@
   margin-left: 50px;
 }
 
-.header-top__wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.header-top__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .header__nav-ul {
@@ -74,8 +74,45 @@
   text-transform: uppercase;
 }
 
-.header__main-slogan{
-    position: absolute;
-    color: white;
-    bottom: 50px;
+.header__main-slogan {
+  width: 30%;
+  position: relative;
+  top: 480px; /*580/891= 65%* в % не працює*/
+  left: 6%;/*100/1600px= 6%* а тут все ок*/
+  font-family: AvenirNextRoundedStd;
+  color: #ffffff;
+  font-size: 39.97px;
+  line-height: 69.938px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.header__main-slogan span {
+  font-family: AvenirNextRoundedStd;
+  color: #a2ca28;
+  font-size: 39.97px;
+  line-height: 69.938px;
+  text-align: left;
+  transform: scaleY(1.0005);
+}
+
+.header__sub-slogan {
+  width: 30%;
+  font-family: OpenSans;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 69.938px;
+  text-align: left;
+  position: relative;
+  left:210px;
+}
+.header__sub-slogan span {
+  font-family: OpenSans;
+  color: #fd634e;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 69.938px;
+  text-align: left;
+  transform: scaleY(1.0005);
 }
