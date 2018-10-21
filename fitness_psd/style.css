@@ -133,12 +133,22 @@
 article {
     width: 100%;
     background-color: #a2ca28;
+/*padditng top/bottom не працюють через те, що не задана фіксована висота?*/
 }
 
 .article__wrapper {
     padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+}
+.article__wrapper-item{
+    margin-right: 39px;
+}
+.item__img {
+    margin-bottom: 23px;
 }
 
 .item__header {
@@ -149,6 +159,7 @@ article {
     line-height: 54px;
     text-align: left;
     transform: scaleY(1.002);
+    margin-bottom: 39px;
 }
 .item__paragraph{
     font-family: ProximaNova;
@@ -158,6 +169,17 @@ article {
     line-height: 24px;
     text-align: left;
     transform: scaleX(1.0007);
+    margin-bottom: 29px;
+}
+
+.item__link a{
+    text-decoration: none;
+    font-family: ProximaNova;
+    color:  #00aeef;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
 }
 
 
