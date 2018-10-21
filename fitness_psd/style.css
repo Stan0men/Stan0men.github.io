@@ -1,122 +1,163 @@
 /*main styles*/
 * {
-  box-sizing: border-box;
-  outline:1px solid black;
+    box-sizing: border-box;
+    /*outline: 1px solid black;*/
 }
 
 .container {
-  width: 100%;
-  margin: auto;
+    width: 100%;
 }
 
 .row {
-  width: 1180px;
-  margin: 0 auto;
+    width: 1195px;
+    margin:  auto;
 }
 
 /*header*/
 .header {
-  /*до звичайного тегу header не примінявся flex)) перепровіряв*/
-  background: url("img/top_logo.png") no-repeat;
-  background-size: 100%;
-  padding-top: 50px;
-  min-height: 891px;
+    /*до звичайного тегу header не примінявся flex)) перепровіряв*/
+    background: url("img/top_logo.jpg") no-repeat;
+    background-size: 100%;
+    padding-top: 50px;
+    min-height: 100vh;
 }
 
 .header__wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50vh;
 }
 
 .header-top__wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 50px;
-  width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 10%;
 }
 
 .header__nav-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .header-wrapper__p {
-  margin-left: 13px;
+    margin-left: 13px;
 }
 
 .header-wrapper__p p {
-  font-family: AvenirNextRoundedStd;
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 24px;
-  text-transform: uppercase;
+    font-family: AvenirNextRoundedStd;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
 }
 
 .header-wrapper__p hr {
-  background-color: #a2ca28;
-  width: 38px;
-  height: 3px;
-  margin-left: 0px;
-  border: none;
+    background-color: #a2ca28;
+    width: 38px;
+    height: 3px;
+    margin-left: 0px;
+    border: none;
 }
 
 .header__nav-ul li a {
-  margin-right: 60px;
-  font-family: AvenirNextRoundedStd;
-  color: #ffffff;
-  font-size: 13px;
-  line-height: 24px;
-  text-align: right;
-  text-decoration: none;
-  text-transform: uppercase;
+    margin-right: 60px;
+    font-family: AvenirNextRoundedStd;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .header__main-slogan {
-  width: 30%;
-  position: relative;
-  top: 480px; /*580/891= 65% в % не працює*/
-  left: 6%;/*100/1600px= 6% а тут все ок*/
-  font-family: AvenirNextRoundedStd;
-  color: #ffffff;
-  font-size: 39.97px;
-  line-height: 69.938px;
-  text-align: left;
-  text-transform: uppercase;
+    width: 30%;
+    margin-left: 10vw;
+    font-family: AvenirNextRoundedStd;
+    color: #ffffff;
+    font-size: 39.97px;
+    line-height: 69.938px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .header__main-slogan span {
-  font-family: AvenirNextRoundedStd;
-  color: #a2ca28;
-  font-size: 39.97px;
-  line-height: 69.938px;
-  text-align: left;
-  transform: scaleY(1.0005);
+    font-family: AvenirNextRoundedStd;
+    color: #a2ca28;
+    font-size: 39.97px;
+    line-height: 69.938px;
+    text-align: left;
+    transform: scaleY(1.0005);
 }
 
 .header__sub-slogan {
-  width: 30%;
-  font-family: OpenSans;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 69.938px;
-  text-align: left;
-  position: relative;
-  left:210px;
-  top:-15px;
+    width: 30%;
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 69.938px;
+    text-align: left;
+    position: relative;
+    left: 210px;
+    top: -15px;
 }
+
 .header__sub-slogan span {
-  font-family: OpenSans;
-  color: #fd634e;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 69.938px;
-  text-align: left;
-  transform: scaleY(1.0005);
+    font-family: OpenSans;
+    color: #fd634e;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 69.938px;
+    text-align: left;
+    transform: scaleY(1.0005);
 }
+/*.header:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-right: 100vw solid rgba(255, 0, 0, 0.3);
+    border-top: 85px solid transparent;
+    border-bottom: 30px solid rgba(255, 0, 0, 0.3);
+}*/
+
+/*article*/
+article {
+    width: 100%;
+    background-color: #a2ca28;
+}
+
+.article__wrapper {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item__header {
+    font-family: OpenSans;
+    color:  #0a1f3f;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: left;
+    transform: scaleY(1.002);
+}
+.item__paragraph{
+    font-family: ProximaNova;
+    color:  #8297a7;
+    font-size: 13.99px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleX(1.0007);
+}
+
+
