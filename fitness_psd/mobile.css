@@ -2,12 +2,30 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .header__wrapper {
+    flex-direction: column;
+    
+  }
+  .header-top__wrapper {
+    margin-left: 33%;
+  }
+  .header__nav-ul li a{
+    margin-right: 10px;
+    line-height: 0;
+  }
+  .header__nav-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .header-top__wrapper {
     width: 100%;
-    margin: 0 auto;
+    margin-right: 6%;
     justify-content: center;
   }
   .header__wrapper {
