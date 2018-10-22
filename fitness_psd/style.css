@@ -186,14 +186,14 @@ article {
     text-align: left;
 }
 
-/*grid__wrapper*/
+/*first grid__wrapper*/
 
 .grid__wrappper {
-    padding-bottom: 100px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
 }
+
 
 .grid__wrapper-item {
     display: flex;
@@ -203,26 +203,55 @@ article {
 .grid-item__content {
     text-align: center;
     width: 40%;
-    padding-bottom: 100px;
 }
+
 .grid-item__first-slogan {
     margin-top: 100px;
     margin-bottom: 13px;
     text-transform: uppercase;
     font-family: Montserrat;
-    color:  #fd634e;
+    color: #fd634e;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
 }
+
 .grid-item__second-slogan {
     font-family: OpenSans;
-    color:  #a2ca28;
+    text-transform: uppercase;
+    color: #a2ca28;
     font-size: 35px;
     font-weight: 300;
     line-height: 30px;
     text-align: center;
+    margin-bottom: 23px;
 }
+
+.grid__item-logo {
+    margin-bottom: 25px;
+}
+.grid__item-article{
+    width: 62%;
+    margin: auto;
+    font-family: OpenSans;
+    color:  #656e74;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.grid__item-link {
+    margin-top: 10px;
+
+}
+.grid__item-link a {
+    color:  #a2ca28;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 
 .grid__item-img {
     width: 60%;
@@ -231,11 +260,30 @@ article {
 }
 
 /*.active-users {*/
-    /*height: 47px;*/
-    /*line-height: 32px;*/
-    /*position: relative;*/
-    /*padding-left: 40px;*/
-    /*color: #f7614c;*/
-    /*bottom: 50px;*/
-    /*left: 600px;*/
+/*height: 47px;*/
+/*line-height: 32px;*/
+/*position: relative;*/
+/*padding-left: 40px;*/
+/*color: #f7614c;*/
+/*bottom: 50px;*/
+/*left: 600px;*/
 /*}*/
+
+/*second grid*/
+
+.grid-second__wrappper {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-second__item-img {
+    width: 60%;
+    background: url("img/grid-2-green.png") 100% no-repeat;
+    background-size: cover;
+}
+
+/*first section*/
+section {
+    background-color:  #fd634e;
+}
