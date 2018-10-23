@@ -361,3 +361,49 @@ section {
   width: 60%;
   background-color: #a2ca28;
 }
+
+.second-row__item-second__slogan {
+    font-family: OpenSans;
+    color:  #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.second-row__item-second__p{
+    font-family: OpenSans;
+    color:  #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+
+/*last section*/
+.section-last {
+  width: 100%;
+}
+
+.section-last__img-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.img-wrapper__first-img {
+  width: 60%;
+  background: url("img/grid-3-red.png") 100% no-repeat;
+  background-size: cover;
+  min-height: 359px;
+}
+.img-wrapper__second-img {
+  width: 40%;
+  background: url("img/grid-4-red.png") 100% no-repeat;
+  background-size: cover;
+  min-height: 359px;
+}
