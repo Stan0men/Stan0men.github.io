@@ -151,6 +151,8 @@ article {
 }
 
 .item__img {
+  width: 45px;
+  height: 45px;
   margin-bottom: 23px;
 }
 
@@ -336,7 +338,7 @@ section {
 .second-row__item-first__sub-slogan {
   font-family: OpenSans;
   color: #a2ca28;
-  font-size: 35px; 
+  font-size: 35px;
   font-weight: 300;
   line-height: 30px;
   text-transform: uppercase;
@@ -350,7 +352,6 @@ section {
   line-height: 26px;
 }
 
-
 /* second-row__item-second */
 .second-row__item-second__content {
   padding: 50px;
@@ -363,25 +364,24 @@ section {
 }
 
 .second-row__item-second__slogan {
-    font-family: OpenSans;
-    color:  #ffffff;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 30px;
-    text-align: left;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+  font-family: OpenSans;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
-.second-row__item-second__p{
-    font-family: OpenSans;
-    color:  #ffffff;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: left;
+.second-row__item-second__p {
+  font-family: OpenSans;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
 }
-
 
 /*last section*/
 .section-last {
@@ -394,7 +394,6 @@ section {
   flex-direction: row;
 }
 
-
 .img-wrapper__first-img {
   width: 60%;
   background: url("img/grid-3-red.png") 100% no-repeat;
@@ -406,4 +405,155 @@ section {
   background: url("img/grid-4-red.png") 100% no-repeat;
   background-size: cover;
   min-height: 359px;
+}
+
+.section-last__content-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-wrapper__first-article {
+  background-color: #ffffff;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  padding: 25px;
+}
+.first-article__main-slogan {
+  font-family: Montserrat;
+  color: #fd634e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.first-article__sub-slogan {
+  font-family: OpenSans;
+  color: #a2ca28;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.first-article__p {
+  font-family: OpenSans;
+  color: #656e74;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.content-wrapper__second-article {
+  background-color: #a2ca28;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  padding: 25px;
+}
+
+.second-article__main-slogan {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+.second-article__sub-slogan {
+  font-family: OpenSans;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.second-article__p {
+  font-family: OpenSans;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/*big picture*/
+.big-picture {
+  background: url("img/footer-img.png") 100% no-repeat;
+  background-size: cover;
+  min-height: 802px;
+}
+
+.big-picture__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.big-picture__slogan {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  font-family: OpenSans;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.big-picture__p {
+  font-family: OpenSans;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  background-color: #0d1119;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper__item {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.wrapper__item-slogan {
+  font-family: OpenSans;
+color:  #ffffff;
+font-size: 15px;
+font-weight: 400;
+line-height: 12px;
+text-transform: uppercase;
+margin-bottom: 29px;
+}
+.wrapper__item-p {
+  font-family: OpenSans;
+color:  #8297a7;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 50px;
+}
+
+.wrapper__item-icons a {
+  text-decoration: none;
+  margin-right: 10px;
 }
