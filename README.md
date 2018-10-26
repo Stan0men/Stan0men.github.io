@@ -16,6 +16,11 @@ https://stan0men.github.io/practice_1_form/
 At the same directory!
 
 ---
-### Homework#2 (Landing#1):
+### Homework#2 (Landing#1 Olenka):
 
 https://stan0men.github.io/olenka_email_theme/
+
+
+### Homework#3 (Landing#2 Fitness)
+
+https://stan0men.github.io/fitness_psd/
