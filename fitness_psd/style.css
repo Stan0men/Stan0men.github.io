@@ -23,6 +23,17 @@
     min-height: 891px;
 }
 
+.header__after {
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 775px;
+    left: 0;
+    border-right: 98vw solid rgba(253, 99, 78, 0.3);;
+    border-top: 85px solid transparent;
+    border-bottom: 30px solid rgba(253, 99, 78, 0.3);;
+}
+
 .header__wrapper {
     display: flex;
     flex-direction: row;
@@ -262,6 +273,15 @@ article {
     background: url("img/grid-1-green.png") 100% no-repeat;
     background-size: cover;
     min-height: 394px;
+}
+.users {
+    position: relative;
+    bottom: -22em;
+    margin-left: 569px;
+}
+.active {
+    color: #FD5D47;
+    font-weight: 900;
 }
 
 /*.active-users {*/
@@ -515,9 +535,30 @@ section {
 .big-picture {
     background: url("img/footer.jpg") 100% no-repeat;
     background-size: cover;
-    min-height: 802px;
+    min-height: 808px;
 }
-
+.big_picture__after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-left: 49vw solid #0D111A;
+    border-right: 49.9vw solid #0D111A; /*при цілих значеннях зявляється полоса прокрутки*/
+    position: relative;
+    top:426px;
+    left: 0;
+    display: inline-block;
+}
+.big-picture__after-red {
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-left: 80vw solid #FD5D47;
+    border-top: 50px solid transparent;
+    position: relative;
+    top: 400px;
+}
 .big-picture__wrapper {
     display: flex;
     flex-direction: column;
@@ -547,6 +588,8 @@ section {
 
 /*footer*/
 footer {
+    padding-top: 100px; /*чомусь не працює*/
+    min-height: 500px;
     width: 100%;
     background-color: #0d1119;
 }
@@ -587,4 +630,38 @@ footer {
 .wrapper__item-icons a {
     text-decoration: none;
     margin-right: 10px;
+}
+
+/*footer form*/
+.footer__form {
+    margin-left: 37%;
+}
+
+input[type="text"] {
+    border-radius: 2px;
+    background-color:  #ffffff;
+    width: 201px;
+    height: 49px;
+    border: none;
+
+}
+input[type="email"]{
+    border-radius: 2px;
+    background-color:  #ffffff;
+    width: 340px;
+    height: 49px;
+    border: none;
+}
+
+form button span {
+    color: white;
+    background-color: white;
+
+}
+button {
+    border-radius: 3px;
+    background-color:  #a2ca28;
+    width: 182px;
+    height: 49px;
+    border: none;
 }
