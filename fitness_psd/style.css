@@ -722,14 +722,11 @@ input[type="email"] {
   border: none;
 }
 
-form button span {
-  color: white;
-  background-color: white;
-}
-button {
+.button {
   border-radius: 3px;
   background-color: #a2ca28;
   width: 182px;
   height: 49px;
   border: none;
+  color:white;
 }
