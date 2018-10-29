@@ -617,11 +617,12 @@ section {
 }
 
 .big-picture__slogan {
+    width: 100%;
     margin-top: 100px;
     margin-bottom: 25px;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     color: #ffffff;
-    font-size: 45px;
+    font-size: 44px;
     font-weight: 400;
     line-height: 40px;
 
