@@ -563,6 +563,12 @@ section {
   line-height: 26px;
 }
 
+.first-article__img {
+    position: relative;
+    bottom: 62%;
+    left: 90%;
+}
+
 .content-wrapper__second-article {
   background-color: #a2ca28;
   width: 40%;
@@ -601,6 +607,13 @@ section {
   line-height: 26px;
 }
 
+.second-article__img {
+    width: 10%;
+    position: relative;
+    bottom: 73%;
+    left: 90%;
+}
+
 /*big picture*/
 .big-picture {
   background: url("img/footer.jpg") 100% no-repeat;
@@ -612,7 +625,7 @@ section {
   width: 0;
   height: 0;
   border-top: 150px solid transparent;
-  border-left: 49vw solid #0d111a;
+  border-left: 48.7vw solid #0d111a;
   border-right: 49.9vw solid #0d111a; /*при цілих значеннях зявляється полоса прокрутки*/
   position: relative;
   top: 426px;
