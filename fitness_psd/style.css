@@ -217,7 +217,7 @@ article {
 
 .grid-item__content {
   text-align: center;
-  width: 40%;
+  width: 30%;
 }
 
 .grid-item__first-slogan {
@@ -269,7 +269,7 @@ article {
 }
 
 .grid__item-img {
-  width: 60%;
+  width: 70%;
   background: url("img/grid-1-green.png") 100% no-repeat;
   background-size: cover;
   min-height: 394px;
@@ -322,7 +322,7 @@ article {
 }
 
 .grid-second__item-img {
-  width: 60%;
+  width: 70%;
   background: url("img/grid-2-green.png") 100% no-repeat;
   background-size: cover;
   min-height: 394px;
