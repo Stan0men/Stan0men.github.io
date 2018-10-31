@@ -93,8 +93,8 @@
   margin-left: 10vw;
   font-family: AvenirNextRoundedStd;
   color: #ffffff;
-  font-size: 39.97px;
-  line-height: 69.938px;
+  font-size: 40px;
+  line-height: 70px;
   text-align: left;
   text-transform: uppercase;
   position: relative;
@@ -117,7 +117,7 @@
   color: #ffffff;
   font-size: 15px;
   font-weight: 700;
-  line-height: 69.938px;
+  line-height: 70px;
   text-align: left;
   position: relative;
   left: 210px;
@@ -564,6 +564,7 @@ section {
 }
 
 .first-article__img {
+    width: 10%;
     position: relative;
     bottom: 62%;
     left: 90%;
@@ -624,7 +625,7 @@ section {
   content: "";
   width: 0;
   height: 0;
-  border-top: 150px solid transparent;
+  border-top: 110px solid transparent;
   border-left: 48.7vw solid #0d111a;
   border-right: 49.9vw solid #0d111a; /*при цілих значеннях зявляється полоса прокрутки*/
   position: relative;
@@ -712,7 +713,15 @@ footer {
 
 .wrapper__item-icons a {
   text-decoration: none;
-  margin-right: 10px;
+}
+.wrapper__item-icons img  {
+    padding: 5px;
+}
+.wrapper__item-icons img:hover {
+    background-color: lightblue;
+    border-radius: 50px;
+    padding: 5px;
+    transition: 0.8s;
 }
 
 /*footer form*/
