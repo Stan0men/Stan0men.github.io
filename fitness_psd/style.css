@@ -176,7 +176,6 @@ article {
   font-size: 24px;
   font-weight: 400;
   line-height: 54px;
-  text-align: left;
   transform: scaleY(1.002);
   margin-bottom: 39px;
 }
@@ -184,10 +183,9 @@ article {
 .item__paragraph {
   font-family: ProximaNova;
   color: white;
-  font-size: 13.99px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
   transform: scaleX(1.0007);
   margin-bottom: 29px;
 }
@@ -199,11 +197,8 @@ article {
   font-size: 14px;
   font-weight: 400;
   line-height: 32px;
-  text-align: left;
 }
-
 /*first grid__wrapper*/
-
 .grid__wrappper {
   background-color: #ffffff;
   display: flex;
@@ -285,6 +280,7 @@ article {
   font-weight: 400;
   line-height: 26px;
   text-align: center;
+  left: 100px;
 }
 .grid__item-img__active {
   color: #fd5d47;
