@@ -70,4 +70,13 @@
     .item__img {
         margin: 0 auto;
     }
+
+    .item__header {
+      margin-bottom: 10px;
+    }
+
+    .item__paragraph{
+        margin-bottom: 10px;
+    }
+
 }
