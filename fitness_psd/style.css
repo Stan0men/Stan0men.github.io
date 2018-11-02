@@ -450,13 +450,6 @@ section {
   text-transform: uppercase;
 }
 
-.second-row__item-first__img {
-  position: relative;
-  bottom: 40px;
-  left: 380px;
-  width: 10%;
-}
-
 .second-row__item-first__p {
   font-family: "Open Sans", sans-serif;
   color: #656e74;
