@@ -146,6 +146,9 @@
     .img-wrapper__first-img, .img-wrapper__second-img {
         display: none;
     }
+    .second-row__item-first__img {
+        left: 90%;
+    }
 
     .section-last__content-wrapper {
         flex-wrap: wrap;
@@ -193,20 +196,26 @@
     }
     .wrapper__item {
         padding: 30px;
-        width: 80%;
+        width: 90%;
         text-align: center;
         margin: auto;
     }
+
     .wrapper__item-icons {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        width: 56%;
+        width: 60%;
         margin: auto;
+        flex-wrap: wrap;
     }
     .wrapper__item-icons a {
-        margin-right: 5px;
+        margin-left: 5%;
+        display: block;
     }
+    .wrapper__item-icons a:last-child {
+        margin-right: 0;
+    }
+
     .footer__form {
         width: 60%;
         margin: auto;
