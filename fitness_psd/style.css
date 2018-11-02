@@ -1,4 +1,5 @@
 /*main styles*/
+
 * {
   box-sizing: border-box;
   /*outline: 1px solid black;*/
@@ -61,7 +62,7 @@
 }
 
 .header-wrapper__p p {
-  font-family: AvenirNextRoundedStd;
+  font-family: 'Lato', sans-serif;
   color: #ffffff;
   font-size: 24px;
   font-weight: 300;
@@ -79,7 +80,7 @@
 
 .header__nav-ul li a {
   margin-right: 60px;
-  font-family: AvenirNextRoundedStd;
+  font-family: 'Lato', sans-serif;
   color: #ffffff;
   font-size: 13px;
   line-height: 24px;
@@ -91,7 +92,7 @@
 .header__main-slogan {
   width: 30%;
   margin-left: 10vw;
-  font-family: AvenirNextRoundedStd;
+  font-family: 'Lato', sans-serif;
   color: #ffffff;
   font-size: 40px;
   line-height: 70px;
@@ -103,10 +104,10 @@
 }
 
 .header__main-slogan span {
-  font-family: AvenirNextRoundedStd;
+  font-family: 'Lato', sans-serif;
   color: #a2ca28;
-  font-size: 39.97px;
-  line-height: 69.938px;
+  font-size:40px;
+  line-height: 70px;
   text-align: left;
   transform: scaleY(1.0005);
 }
