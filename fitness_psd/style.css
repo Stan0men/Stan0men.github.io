@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  /*outline: 1px solid black;*/
+  outline: 1px solid red;
 }
 
 .container {
@@ -27,8 +27,8 @@
 .header__after {
   width: 100%;
   content: "";
-  position: relative;
-  top: 453px;
+  position: absolute;
+  top: 687px;
   left: 0;
   border-right: 98vw solid rgba(253, 99, 78, 0.3);
   border-top: 85px solid transparent;
