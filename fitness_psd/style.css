@@ -206,7 +206,7 @@ article {
 
 .grid-item__content {
   text-align: center;
-  width: 30%;
+  width: 33.33%;
 }
 
 .grid-item__first-slogan {
@@ -258,7 +258,7 @@ article {
 }
 
 .grid__item-img {
-  width: 70%;
+  width: 66.66%;
   background: url("img/grid-1-green.png") 100% no-repeat;
   background-size: cover;
   min-height: 394px;
@@ -304,7 +304,7 @@ article {
 }
 
 .grid-second__item-img {
-  width: 70%;
+  width: 66.66%;
   background: url("img/grid-2-green.png") 100% no-repeat;
   background-size: cover;
   min-height: 394px;
@@ -358,14 +358,14 @@ section {
 }
 
 .first-row__item-first {
-  width: 40%;
+  width: 33.33333%;
   background: url("img/grid-1-red.png") 100% no-repeat;
   background-size: cover;
   min-height: 330px;
 }
 
 .first-row__item-second {
-  width: 60%;
+  width: 66.66666%;
   background: url("img/grid-2-red.png") 100% no-repeat;
   background-size: cover;
   min-height: 330px;
@@ -404,7 +404,7 @@ section {
 
 .second-row__item-first {
   padding-top: 20px;
-  width: 40%;
+  width: 33.333%;
   background-color: #ffffff;
   text-align: left;
 }
@@ -446,7 +446,7 @@ section {
 
 .second-row__item-second {
   padding-top: 20px;
-  width: 60%;
+  width: 66.6666%;
   background-color: #a2ca28;
 }
 
@@ -480,14 +480,14 @@ section {
 }
 
 .img-wrapper__first-img {
-  width: 60%;
+  width: 66.66666%;
   background: url("img/grid-3-red.png") 100% no-repeat;
   background-size: cover;
   min-height: 359px;
 }
 
 .img-wrapper__second-img {
-  width: 40%;
+  width: 33.33333%;
   background: url("img/grid-4-red.png") 100% no-repeat;
   background-size: cover;
   min-height: 359px;
@@ -500,7 +500,7 @@ section {
 
 .content-wrapper__first-article {
   background-color: #ffffff;
-  width: 60%;
+  width: 66.6666%;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -528,6 +528,10 @@ section {
   margin-bottom: 40px;
 }
 
+.first-article__sub-slogan img{
+margin-left: 200px;
+}
+
 .first-article__p {
   font-family: "Open Sans", sans-serif;
   color: #656e74;
@@ -545,7 +549,7 @@ section {
 
 .content-wrapper__second-article {
   background-color: #a2ca28;
-  width: 40%;
+  width: 33.333333%;
   display: flex;
   flex-direction: column;
   text-align: left;
