@@ -64,7 +64,6 @@
     }
     .item__header {
         line-height: 24px;
-        transform: scaleY(1.002);
         margin-bottom: 10px;
     }
 
