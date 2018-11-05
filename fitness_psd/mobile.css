@@ -398,6 +398,14 @@
   .big-picture__after-red {
     display: none;
   }
+
+  .triangles {
+      bottom: -68px;
+  }
+  .red-triangle {
+    top: 25px;
+    border-right: 94vw solid transparent;
+}
   .footer__wrapper {
     flex-wrap: wrap;
   }
