@@ -12,7 +12,7 @@
 
 * {
   box-sizing: border-box;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .container {
@@ -100,7 +100,7 @@
 }
 
 .header__main-slogan {
-  width: 30%;
+  min-width: 350px;
   margin-left: 10vw;
   font-family: var(--Lato-font);
   color: var(--White-color);
@@ -108,9 +108,9 @@
   line-height: 70px;
   text-align: left;
   text-transform: uppercase;
-  position: relative;
-  top: 400px;
-  right: 77px;
+  position: absolute;
+  top: 70vh;
+  
 }
 
 .header__main-slogan span {
@@ -127,10 +127,9 @@
   font-size: 15px;
   font-weight: 700;
   line-height: 70px;
-  text-align: left;
-  position: relative;
+  position: absolute;
   left: 210px;
-  top: -15px;
+  top: 35px;
 }
 
 .header__sub-slogan span {
