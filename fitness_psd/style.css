@@ -38,7 +38,7 @@
   width: 100%;
   content: "";
   position: absolute;
-  top: 81.7%;
+  bottom: 0;
   left: 0;
   border-right: 96vw solid rgba(253, 99, 78, 0.3);
   border-top: 85px solid transparent;
