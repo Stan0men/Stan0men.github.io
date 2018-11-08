@@ -413,7 +413,7 @@
   }
 
   .triangles {
-    bottom: -48px;
+    bottom: -70px;
   }
   .red-triangle {
     top: 25px;
@@ -432,16 +432,9 @@
   .wrapper__item-icons {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 91%;
     margin: auto;
     flex-wrap: wrap;
-  }
-  .wrapper__item-icons a {
-    margin-left: 30%;
-    margin-bottom: 10px;
-  }
-  .wrapper__item-icons a:last-child {
-    margin-right: 0;
   }
 
   .footer__form {
