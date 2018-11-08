@@ -249,7 +249,8 @@
     width: 100%;
   }
   .header {
-    min-height: 276px;
+    background: url(img/top_logo.jpg) 50% no-repeat;
+    background-size: cover;
   }
 
   .header-top__wrapper {
@@ -287,10 +288,6 @@
   .header__main-slogan {
     display: none;
   }
-  .header__after {
-    top: 161px;
-  }
-
   .article__wrapper {
     padding-bottom: 0;
     flex-wrap: wrap;
