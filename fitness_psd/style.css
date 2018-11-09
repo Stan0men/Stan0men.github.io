@@ -148,12 +148,10 @@ article {
 }
 
 .article__wrapper {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0 100px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-align: left;
 }
 
 .article__wrapper-item {
@@ -713,7 +711,7 @@ footer {
     padding-top: 100px; /*чомусь не працює*/
     min-height: 500px;
     width: 100%;
-    background-color: #0d1119;
+    background-color: black;
 }
 
 .footer__wrapper {
