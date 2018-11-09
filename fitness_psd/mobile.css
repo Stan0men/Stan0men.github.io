@@ -1,3 +1,4 @@
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .row {
         width: 100%;
@@ -77,10 +78,10 @@
          margin-left: 0;
     }
     .triangles {
-        bottom: -400px;
+        bottom: -440px;
     }
     .red-triangle {
-        top: 360px;
+        top:400px;
     }
     .footer__form {
         width: 80%;
