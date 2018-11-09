@@ -13,6 +13,94 @@
         width: 40%;
         margin-bottom: 50px;
     }
+    .header__nav-ul li a {
+        margin-right: 30px;
+    }
+    .grid-item__content {
+        width: 50%;
+    }
+    .grid__item-img {
+        width: 50%;
+        background: url(img/grid-1-green.png)  no-repeat;
+        background-size: cover;
+    }
+    .grid__item-img__users {
+        width: 30%;
+        margin-left: 150px;
+    }
+    .grid-second__item-img {
+        width: 50%;
+        background: url(img/grid-2-green.png) 75% no-repeat;
+        background-size: cover;
+        min-height: 394px;
+    }
+    .grid-second__item-img__users {
+        width: 35%;
+    }
+    .grid-second__item-img__img {
+        left: 0;
+    }
+    .first-row__item-first {
+        width: 50%;
+        background: url(img/grid-1-red.png) 100% no-repeat;
+        background-size: cover;
+    }
+    .first-row__item-second {
+        width: 50%;
+        background: url(img/grid-2-red.png) 60% no-repeat;
+        background-size: cover;
+    }
+    .item-second__second-p {
+        margin-top: -5%;
+    }
+    .second-row__item-first {
+        width: 50%;
+    }
+    .second-row__item-second {
+        width:50%;
+    }
+    .img-wrapper__first-img {
+        width: 50%;
+        background: url(img/grid-3-red.png) 70% no-repeat;
+        background-size: cover;
+    }
+    .img-wrapper__second-img {
+        width: 50%;
+    }
+    .content-wrapper__first-article {
+        width: 50%;
+    }
+    .content-wrapper__second-article {
+        width: 50%;
+    }
+    .first-article__sub-slogan img {
+         margin-left: 0;
+    }
+    .triangles {
+        bottom: -400px;
+    }
+    .red-triangle {
+        top: 360px;
+    }
+    .footer__form {
+        width: 80%;
+        margin: auto;
+    }
+    .footer__wrapper {
+        flex-wrap: wrap;
+    }
+    .wrapper__icons{
+        margin-top: 0;
+    }
+    .wrapper__item {
+        width: 40%;
+    }
+    .wrapper__item-p {
+        margin-bottom: 20px;
+    }
+    input[type="email"] {
+        width: 201px;
+    }
 
 }
 
