@@ -99,10 +99,6 @@
     .wrapper__item-p {
         margin-bottom: 20px;
     }
-    input[type="email"] {
-        width: 201px;
-    }
-
 }
 
 @media (min-width: 300px) and (max-width: 480px) {
