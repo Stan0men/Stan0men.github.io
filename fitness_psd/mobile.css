@@ -10,6 +10,9 @@
     article {
         width: 117%;
     }
+    .article__wrapper {
+        padding: 50px 30px 50px 30px;
+    }
 
     section {
         width: 117%;
@@ -161,7 +164,7 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
     .header {
-        width: 187%;
+        width: 243%;
     }
     .header__after {
         border-right: 186vw solid red;
@@ -171,16 +174,16 @@
     }
 
     article {
-        width: 187%;
+        width: 243%;
         padding: 0 50px 0 50px;
     }
 
     .big-picture {
-        width: 187%;
+        width: 243%;
     }
 
     footer {
-        width: 187%;
+        width: 243%;
     }
     .footer__form {
         margin-left: 20%;
