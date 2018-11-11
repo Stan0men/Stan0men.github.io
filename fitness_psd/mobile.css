@@ -54,7 +54,7 @@
 
     .grid__item-img__users {
         width: 30%;
-        margin-left:150px;
+        margin-left: 150px;
     }
 
     .grid-second__item-img {
@@ -82,10 +82,6 @@
         width: 50%;
         background: url(img/grid-2-red.png) 60% no-repeat;
         background-size: cover;
-    }
-
-    .item-second__second-p {
-        margin-top: -5%;
     }
 
     .second-row__item-first {
@@ -119,9 +115,8 @@
     }
 
     .triangles {
-        bottom: -440px;
+        display: none;
     }
-
     .red-triangle {
         display: none;
     }
@@ -167,6 +162,10 @@
         font-size: 10px;
     }
 
+    .header__after {
+        border-right: 97vw solid red;
+    }
+
     .header__main-slogan {
         top: 45vh;
     }
@@ -179,9 +178,11 @@
         padding: 0 50px 0 50px;
 
     }
+
     .article__wrapper {
         flex-wrap: wrap;
     }
+
     .article__wrapper-item {
         margin-right: 0;
         width: 40%;
@@ -200,7 +201,7 @@
 
     .grid__item-img__users {
         width: 43%;
-        margin-left:20px;
+        margin-left: 20px;
     }
 
     .grid-second__item-img {
@@ -210,21 +211,74 @@
         min-height: 394px;
     }
 
-    .grid__item-img__users {
-        width: 36%;
-        position: relative;
-        bottom: -40em;
-        margin-left: 80px;
+    .grid-second__item-img__users {
+        margin-left: 20px;
+        width: 50%;
+    }
+
+    .first-row__item-first {
+        width: 50%;
+        background: url(img/grid-1-red.png) 40% no-repeat;
+        background-size: cover;
+    }
+
+    .first-row__item-second {
+        width: 50%;
+        background: url(img/grid-2-red.png) 60% no-repeat;
+        background-size: cover;
+        min-height: 330px;
+    }
+
+    .second-row__item-first {
+        width: 50%;
+    }
+
+    .second-row__item-second {
+        width: 50%;
+    }
+
+    .img-wrapper__first-img {
+        width: 50%;
+        background: url(img/grid-3-red.png) 60% no-repeat;
+        background-size: cover;
+    }
+
+    .img-wrapper__second-img {
+        width: 50%;
+        background: url(img/grid-4-red.png) 100% no-repeat;
+        background-size: cover;
+    }
+
+    .content-wrapper__first-article {
+        width: 50%;
+    }
+
+    .content-wrapper__second-article {
+        width: 50%;
+    }
+
+    .first-article__sub-slogan img {
+        margin-left: 180px;
+        margin-top: -60px;
     }
 
     .footer__form {
         margin-left: 20%;
     }
+
     .triangles {
         display: none;
     }
+
     .red-triangle {
         display: none;
+    }
+    input[type="text"],
+    input[type="email"],
+    .button {
+        padding: 9px;
+        width: 60%;
+        margin-bottom: 20px;
     }
 }
 
@@ -410,6 +464,10 @@
 
     .big_picture__after,
     .big-picture__after-red {
+        display: none;
+    }
+
+    .triangles {
         display: none;
     }
 

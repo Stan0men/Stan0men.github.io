@@ -399,7 +399,6 @@ section {
 }
 
 .item-second__second-p {
-    float: left;
     font-family: var(--Montserat-font);
     color: var(--White-color);
     font-size: 14px;
