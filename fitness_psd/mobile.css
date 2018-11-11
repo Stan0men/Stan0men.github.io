@@ -2,16 +2,24 @@
     .header {
         width: 117%;
     }
+
+    .header__after {
+        border-right: 117vw solid red;
+    }
+
     article {
         width: 117%;
     }
+
     section {
         width: 117%;
     }
-    .big-picture{
+
+    .big-picture {
         width: 117%;
     }
-    footer{
+
+    footer {
         width: 117%;
     }
 }
@@ -150,9 +158,33 @@
     }
 
 }
+
 @media (min-width: 481px) and (max-width: 767px) {
+    .header {
+        width: 187%;
+    }
+    .header__after {
+        border-right: 186vw solid red;
+    }
+    .header__main-slogan {
+        top: 45vh;
+    }
 
+    article {
+        width: 187%;
+        padding: 0 50px 0 50px;
+    }
 
+    .big-picture {
+        width: 187%;
+    }
+
+    footer {
+        width: 187%;
+    }
+    .footer__form {
+        margin-left: 20%;
+    }
 
 }
 
@@ -200,6 +232,9 @@
 
     .header__main-slogan {
         display: none;
+    }
+    .header__after {
+        border-right: 95vw solid red;
     }
 
     .article__wrapper {
