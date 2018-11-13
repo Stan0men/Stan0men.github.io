@@ -261,6 +261,13 @@
         margin-left: 180px;
         margin-top: -60px;
     }
+    .big-picture{
+        height: 100vh;
+        min-height: 400px;
+    }
+    .big-picture__wrapper {
+        vertical-align: middle;
+    }
 
     .footer__form {
         margin-left: 20%;
