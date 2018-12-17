@@ -10,24 +10,29 @@ const catImages = [
     "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/336916.svg"
 ];
 
-function getSlider(slide) {
-    let currentSlide=0;
-    return {
-        getCurrentSlide: function(){
-            console.log(currentSlide)
-        },
-        goToNextSlide : function (catImages) {
-            if (currentSlide === catImages.length-1) {
-                currentSlide = 0
-            }
-            else {
-                return currentSlide++
-            }
-        },
-        goToPreviousSlide : function () {
-            return currentSlide--;
+function GetSlider(currentSlide = 0) {
+    this.currentSlide = currentSlide;
+
+    this.getCurrentSlide = function () {
+        return `Current slide is ${currentSlide}`;
+    };
+    this.goToNextSlide = function (catImages) {
+        if (currentSlide === catImages.length - 1) {
+            currentSlide = 0
+        } else {
+            return currentSlide++
         }
     };
-    return currentSlide;
+    this.goToPreviousSlide = function () {
+        return currentSlide--;
+    }
+    this.goToExactSlide = function (n) {
+        return `Your slide is ${currentSlide = n}`;
+    }
 
 }
+
+let obj = new GetSlider();
+
+console.log(obj.getCurrentSlide());
+//console.log(obj.goToExactSlide(2));

@@ -4,7 +4,7 @@ function Person(name, date, amount) {
     this.amount = amount;
     this.transactionHistory=[`Start count: ${this.amount}`];
 
-    let getAge = function(){
+      this.getAge = function(){
         const dateParts = date.split('.');
         const birthDate = new Date(dateParts[2], dateParts[1]-1, dateParts[0]);
         const diff= Date.now()-birthDate.getTime();
