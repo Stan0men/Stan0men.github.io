@@ -1,0 +1,16 @@
+{
+  "name": "CRUD_practice",
+  "version": "1.0.0",
+  "description": "CRUD",
+  "main": "index.html",
+  "scripts": {
+    "server": "node server.js",
+    "build": "gulp build",
+    "deploy": "npx gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ihnat Semchuk",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}

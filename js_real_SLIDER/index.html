@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const catImages = [
+            "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/495636.svg",
+            "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/495625.svg",
+            "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/495622.svg",
+            "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/495619.svg",
+            "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/495616.svg",
+            "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/495613.svg",
+            "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/495592.svg",
+            "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/495579.svg",
+            "https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/336916.svg"
+        ];
+
+        function Slider({root, images}) {
+
+            root.innerHTML=`
+                 <button class="prev-slide">Prev</button>
+                 <button class="next-slide">Next</button>
+                 <img src="https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/495636.svg"
+            alt="cat" style="width: 400px">
+                 `
+
+
+            let currentSlide = 0;
+            this.nextSlide = () => {
+                currentSlide++;
+            };
+            this.prevSlide = () => {
+                currentSlide--;
+            };
+
+            root.addEventListener('click', (e) => {
+                if (e.target.matches('.prev-slide')) {
+                    this.prevSlide();
+                    updSlide();
+                }
+                if (e.target.matches('.next-slide')) {
+                    this.nextSlide();
+                    updSlide();
+                }
+            });
+
+            function updSlide() {
+                root.querySelector('img').src = images[currentSlide];
+            }
+
+            // function directSlide(num) {
+            //     document.querySelector('img').src = images[num - 1];
+            // }
+        }
+
+        let slider1 = new Slider({
+            images: catImages,
+            root: document.querySelector('#slider1')
+        });
+        let slider2 = new Slider({
+            images: catImages,
+            root: document.querySelector('#slider2')
+        });
+
+    });
+
+</script>
+
+
+<div id="slider1"></div>
+<div id="slider2"></div>
+
+</body>
+</html>

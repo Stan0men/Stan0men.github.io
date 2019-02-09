@@ -13,7 +13,7 @@ function Person(name, date, amount) {
 
 
     this.getInfo=function(){
-        return `Person ${this.name} was born at ${this.birthDate} and has on his account ${this.amount} dollars` ;
+        return `Person ${this.name} with age at ${this.getAge()} and has on his account ${this.amount} dollars` ;
     };
     this.addMoney=function(amount, comment){
         this.amount += amount;
@@ -29,7 +29,7 @@ function Person(name, date, amount) {
 }
 
 let papka = new Person("Sashok", "16.02.1990", 100500);
-console.log(papka.getAge());
+//console.log(papka.getAge());
 //console.log(papka.getInfo());
 //console.log(papka.addMoney(500, "Allo"));
 //console.log(papka.withdrawMoney(1000, "Ku ku!!!"));

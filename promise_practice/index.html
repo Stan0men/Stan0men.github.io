@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function setTimeoutInRange(min, max) {
+        return new Promise((resolve) => {
+            const randomTime = getRandomInt(min, max);
+
+            setTimeout(() => {
+                resolve(randomTime)
+            }, randomTime);
+        });
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+    }
+
+    setTimeoutInRange(200, 1000)
+        .then((definedTime) => {
+            console.log('Hello', definedTime);
+        });
+    function getBeers() {
+        const beers = ['Berdichivske', 'EVO'];
+        return setTimeoutInRange(500, 700)
+            .then(() => {
+                return beers;
+            });
+    }
+
+    getBeers()
+        .then((beers) => {
+            console.log('Our beers', beers);
+        });
+
+    setTimeoutInRange(500, 1500)
+        .then((definedTime) => {
+            console.log('Hello', definedTime);
+        });
+
+    function getCats() {
+        const cats = ['cat', 'allo'];
+        return setTimeoutInRange(500, 700)
+            .then(() => {
+                return cats;
+            });
+    }
+
+    getCats()
+        .then((cats) => {
+            console.log('Our cats', cats);
+        });
+
+    Promise.all([getCats(), getBeers()])
+        .then((value) => {
+            console.log(value)
+        })
+</script>
+</body>
+</html>
